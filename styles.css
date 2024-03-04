@@ -36,7 +36,7 @@ h1, h2, h3, h4, li, p, label, input, button, a, small{
 
 .hero-image{
     
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("carrousel1.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/carrousel1.jpg");
     width: 100vh;
     height: 70vh;
     background-repeat: no-repeat;
@@ -144,5 +144,89 @@ h3{
 }
 
 
+@media (max-width: 768px) {
+   ¡
+    .intro h1,
+    .intro h2,
+    .intro p {
+      margin-left: 20px;
+      margin-right: 20px; 
+      font-size: 15px;
+    }
+  
+    .intro img {
+      height: auto;
+      width: 100%; 
+    }
+  
+    .ancha {
+      width: 100% !important; 
+    }
+
+    iframe{
+        width: 100%;
+    }
+  
+    footer {
+      height: auto;
+    }
+
+    .accordion{
+      margin-bottom: 100px !important;
+    }
+
+    .card{
+      margin-bottom: 100px !important;
+    }
+
+  }
+  
+  
+  @media (max-width: 576px) {
+    .navbar-nav {
+      flex-direction: column; 
+    }
+  
+    .navbar-toggler {
+      margin-top: 10px; 
+    }
+  
+    .navbar-nav a {
+      padding: 10px; 
+    }
+  
+    .hero-image {
+      height: 40vh; 
+    }
+  
+    .intro h1,
+    .intro h2,
+    .intro p {
+      margin-left: 10px;
+      margin-right: 10px;
+      font-size: 10px;
+    }
+  
+    footer {
+      height: auto; 
+    }
+
+    iframe{
+        width: 100%;
+    }
+
+    .accordion{
+      margin-bottom: 100px !important;
+    }
+
+    .card{
+      margin-bottom: 100px !important;
+    }
 
 
+    footer{
+      font-size: 10px;
+      height: 30vh;
+    }
+  }
+  
