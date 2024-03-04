@@ -1,0 +1,148 @@
+h1, h2, h3, h4, li, p, label, input, button, a, small{
+    font-family: "Source Code Pro", monospace !important;
+    font-optical-sizing: auto !important;
+    font-weight: 400 !important;
+    font-style: normal !important;
+}
+
+.accordion {
+    --bs-accordion-active-bg: #045308 !important;
+    --bs-accordion-active-color: white !important;
+    --bs-accordion-btn-focus-box-shadow: none !important;
+    width: 70%;
+
+}
+
+.accordion-button::after {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='currentColor' class='bi bi-plus' viewBox='0 0 16 16'%3E%3Cpath d='M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z'/%3E%3C/svg%3E") !important;
+    transition: all 0.5s !important;
+  }
+
+.accordion-button:not(.collapsed)::after {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='white' class='bi bi-dash' viewBox='0 0 16 16'%3E%3Cpath d='M4 8a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7A.5.5 0 0 1 4 8z'/%3E%3C/svg%3E") !important;
+  }
+
+.btn-primary{
+    background-color: #045308 !important;
+    border: none !important;
+    width: 200px;
+    height: 50px;   
+}
+
+.btn-primary:hover{
+    background-color: rgb(6, 153, 13) !important;
+}
+
+
+.hero-image{
+    
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/carrousel1.jpg");
+    width: 100vh;
+    height: 70vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+  }
+
+.hero-text {
+    color: white;
+  }
+
+.navegacion{
+
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+
+  }
+
+nav{
+    background-color: rgb(4, 104, 4);
+
+}
+
+.navbar-nav a{
+    color: white;
+    padding: 35px;
+}
+
+.navbar-nav a:hover{
+    color: rgb(138, 240, 143);
+}
+
+
+.logo-container{
+    margin-left: 50px;
+}
+
+.logo-nav{
+    height: 85x;
+    width: 85px;
+    border-radius: 40px;
+
+}
+
+
+.intro h1, .intro h2{
+    color: #045308;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 30px;
+
+}
+
+
+.intro p{
+    color: black;
+    margin-left: 100px;
+    margin-right: 100px;
+    font-size: 20px;
+}
+
+.intro img{
+
+    height: 500px;
+    width: 500px;
+}
+
+.ancha{
+
+    width: 650px !important;
+
+}
+
+
+footer{
+    background-image: linear-gradient(to bottom right, white 50%, rgba(4, 104, 4)50%);
+    height: 30vh;
+    margin: 0px;
+    padding: 0px;
+    color: white;
+}
+
+i{
+    font-size: 40px;
+    margin-right: 20px;
+}
+
+section{
+    margin-bottom: 200px;
+}
+
+section h1, section h2{
+    color:#045308;
+    text-align: center;
+}
+    
+.form-control:focus{
+    box-shadow: none !important;
+    border:2px solid #045308 !important;
+}
+
+h3{
+    color:#045308 !important;
+}
+
+
+
+

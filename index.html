@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/styles.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+  <title>Liceo DAW</title>
+</head>
+
+<body>
+
+  <div class="container-fluid">
+
+    <div class="row navegacion">
+
+      <nav class="navbar navbar-dark navbar-expand-lg" aria-label="Menú de navegación">
+
+        <div class="container-fluid">
+    
+          <a href="#" class="navbar-brand logo-container">
+            <img class="logo-nav" src="img/logo_liceo.jpeg" aria-label="Logo del Liceo" alt="Liceo la Paz">
+          </a>
+    
+          <button class="navbar-toggler" 
+                  type="button" 
+                  data-bs-toggle="collapse" 
+                  data-bs-target="#navbarSupportedContent"
+                  aria-controls="navbarSupportedContent" 
+                  aria-expanded="false" 
+                  aria-label="Desplegar menú de navegación">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+    
+          <div class="collapse navbar-collapse" id="navbarSupportedContent" aria-label="Enlaces de navegación">
+            <div class="container-fluid d-flex justify-content-center">
+              <div class="navbar-nav">
+                <a class="nav-link px-5" href="#inicio" aria-label="Enlace a la sección de inicio">INICIO</a>
+                <a class="nav-link px-5" href="#contenidos" aria-label="Enlace a la sección de contenidos">CONTENIDOS</a>
+                <a class="nav-link px-5" href="#modalidades" aria-label="Enlace a la sección de modalidades">MODALIDADES</a>
+                <a class="nav-link px-5" href="#formulario" aria-label="Enlace a la sección de formulario">RESERVA</a>
+              </div>
+          </div>
+    
+          </div>
+    
+        </div>
+    
+      </nav>
+      
+    </div>
+
+    <div class="row">
+
+      <div class="hero-image d-flex justify-content-center align-items-center">
+
+        <div class="hero-text text-center">
+          <h1>CONVIÉRTETE EN UN DESARROLLADOR WEB PROFESIONAL</h1>
+          <p>Más de 30 años de experiencia y miles de alumnos nos avalan</p>
+          <button class="btn btn-primary">INSCRÍBETE</button>
+        </div>
+    
+      </div>
+
+    </div>
+
+   <section class="intro mt-5 text-center" id="inicio">
+
+    <h1>¿QUÉ APRENDERÁS?</h1>
+
+    <div class="row mt-5 align-items-center">
+      <div class="col-6 texto">
+        <h2>Fundamentos y Tecnologías emergentes</h2>
+        <p>En este curso, te sumergirás en los fundamentos esenciales del desarrollo de aplicaciones web. Aprenderás a construir sólidas bases en HTML, CSS y JavaScript, las piedras angulares de cualquier aplicación web moderna. Además, explorarás las tecnologías emergentes que están dando forma al futuro del desarrollo web, como las Progressive Web Apps (PWAs) y las últimas tendencias en arquitecturas de aplicaciones.
+        </p>
+      </div>
+
+      <div class="col-6">
+        <img src="img/img1.jpg" alt="decoracion" aria-hidden="true">
+      </div>
+    </div>
+
+    <div class="row mt-5 align-items-center">
+      <div class="col-6">
+        <img  class="ancha"  src="img/img2.jpg" alt="decoracion" aria-hidden="true">
+      </div>
+
+      <div class="col-6 texto">
+       <h2>Diseño Interactivo y Experiencia de Usuario (UX) en Desarrollo Web</h2>
+       <p>    Descubre el arte de crear experiencias de usuario cautivadoras y funcionalidades interactivas. En este módulo, explorarás principios de diseño centrados en el usuario, prácticas de diseño responsivo y técnicas avanzadas de JavaScript para lograr interfaces web dinámicas. Aprenderás cómo optimizar la experiencia del usuario para dispositivos móviles y escritorio, elevando tus habilidades de desarrollo a un nivel superior.
+      </p>
+      </div>
+    </div>
+
+    <div class="row mt-5 align-items-center">
+      <div class="col-6 texto">
+       <h2>Despliegue Eficiente y Mantenimiento de Aplicaciones Web</h2>
+       <p>    Dominarás las estrategias y herramientas necesarias para llevar tus aplicaciones web desde el entorno de desarrollo hasta la producción de manera eficiente. Aprenderás sobre servicios de alojamiento, configuración de servidores, integración continua y prácticas de seguridad. Además, profundizarás en el mantenimiento de aplicaciones web a largo plazo, abordando actualizaciones, monitoreo y resolución de problemas para garantizar un rendimiento óptimo y una experiencia sin contratiempos para los usuarios.
+      </p>
+      </div>
+
+      <div class="col-6">
+        <img src="img/img5.jpg" alt="decoracion" aria-hidden="true">
+      </div>
+    </div>
+
+   </section>
+
+   <section class="asignaturas mt-5 text-center" id="contenidos">
+
+    <h1>CONTENIDOS</h1>
+
+    <div class="row mt-5">
+
+      <div class="col-6 d-flex flex-column align-items-center">
+
+        <h2>PRIMER CURSO</h2>
+
+          <div class="accordion accordion-flush mt-5" id="asignaturas-primero">
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#programacion" aria-expanded="false" aria-controls="flush-collapse-programacion">
+                        Programación
+                    </button>
+                </h2>
+                <div id="programacion" class="accordion-collapse collapse" data-bs-parent="asignaturas-primero">
+                    <p class="accordion-body">
+                        En la asignatura de Programación, los estudiantes aprenderán los fundamentos de la programación y cómo desarrollar algoritmos para resolver problemas. Se utilizarán lenguajes de programación como Java, C++ o Python.
+                    </p>
+                </div>
+            </div>
+        
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#marcas" aria-expanded="false" aria-controls="flush-collapse-marcas">
+                        Lenguaje de marcas
+                    </button>
+                </h2>
+                <div id="marcas" class="accordion-collapse collapse" data-bs-parent="asignaturas-primero">
+                    <p class="accordion-body">
+                        La asignatura de Lenguaje de Marcas se centra en enseñar cómo utilizar y estructurar diferentes tipos de marcas, como HTML y XML. Los estudiantes aprenderán a crear documentos web estructurados y formateados.
+                    </p>
+                </div>
+            </div>
+        
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#bbdd" aria-expanded="false" aria-controls="flush-collapse-bbdd">
+                        Bases de datos
+                    </button>
+                </h2>
+                <div id="bbdd" class="accordion-collapse collapse" data-bs-parent="asignaturas-primero">
+                    <p class="accordion-body">
+                        En la asignatura de Bases de Datos, los estudiantes explorarán cómo diseñar y gestionar bases de datos. Se abordarán
+                        temas como modelado de datos, SQL y administración de sistemas de gestión de bases de datos.
+                    </p>
+                </div>
+            </div>
+        
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#entornos" aria-expanded="false" aria-controls="flush-collapse-entornos">
+                        Entornos de Desarrollo
+                    </button>
+                </h2>
+                <div id="entornos" class="accordion-collapse collapse" data-bs-parent="asignaturas-primero">
+                    <p class="accordion-body">
+                        La asignatura de Entornos de Desarrollo se centra en proporcionar a los estudiantes las herramientas y prácticas necesarias para desarrollar software de manera eficiente. Se explorarán entornos de desarrollo integrados (IDE) y técnicas de depuración.
+                    </p>
+                </div>
+            </div>
+        
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#sistemas" aria-expanded="false" aria-controls="flush-collapse-sistemas">
+                        Sistemas informáticos
+                    </button>
+                </h2>
+                <div id="sistemas" class="accordion-collapse collapse" data-bs-parent="asignaturas-primero">
+                    <p class="accordion-body">
+                        La asignatura de Sistemas Informáticos aborda los principios y conceptos fundamentales de los sistemas informáticos. Se explorarán temas como arquitectura de computadoras, sistemas operativos y redes.
+                    </p>
+                </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-6 d-flex flex-column align-items-center">
+
+        <h2>SEGUNDO CURSO</h2>
+        
+        <div class="accordion accordion-flush mt-5" id="asignaturas-segundo">
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#diw" aria-expanded="false" aria-controls="flush-collapse-interfaces">
+                        Desarrollo de Interfaces Web
+                    </button>
+                </h2>
+                <div id="diw" class="accordion-collapse collapse" data-bs-parent="asignaturas-segundo">
+                    <p class="accordion-body">
+                        En la asignatura de Desarrollo de Interfaces Web, los estudiantes aprenderán a crear interfaces web interactivas y atractivas utilizando tecnologías como HTML, CSS, JavaScript y frameworks front-end.
+                    </p>
+                </div>
+            </div>
+        
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#entorno-servidor" aria-expanded="false" aria-controls="flush-collapse-servidor">
+                        Desarrollo Entorno Servidor
+                    </button>
+                </h2>
+                <div id="entorno-servidor" class="accordion-collapse collapse" data-bs-parent="asignaturas-segundo">
+                    <p class="accordion-body">
+                     La asignatura de Desarrollo Entorno Servidor se enfoca en la creación de aplicaciones del lado del servidor utilizando tecnologías como PHP, Node.js y bases de datos relacionales.
+                    </p>
+                </div>
+            </div>
+        
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#entorno-cliente" aria-expanded="false" aria-controls="flush-collapse-cliente">
+                        Desarrollo Entorno Cliente
+                    </button>
+                </h2>
+                <div id="entorno-cliente" class="accordion-collapse collapse" data-bs-parent="asignaturas-segundo">
+                    <p class="accordion-body">
+                        En la asignatura de Desarrollo Entorno Cliente, los estudiantes explorarán la creación de interfaces de usuario del lado del cliente utilizando tecnologías como JavaScript, AJAX y frameworks front-end.
+                    </p>
+                </div>
+            </div>
+        
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#despliegue" aria-expanded="false" aria-controls="flush-collapse-despliegue">
+                        Despliegue de Aplicaciones Web
+                    </button>
+                </h2>
+                <div id="despliegue" class="accordion-collapse collapse" data-bs-parent="asignaturas-segundo">
+                    <p class="accordion-body">
+                        La asignatura de Despliegue de Aplicaciones Web se centra en las estrategias y técnicas para implementar aplicaciones web en entornos de producción. Se abordarán temas como hosting, servidores web y escalabilidad.
+                    </p>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#proyecto" aria-expanded="false" aria-controls="flush-collapse-proyecto">
+                      Proyecto Fin de Ciclo
+                  </button>
+              </h2>
+              <div id="proyecto" class="accordion-collapse collapse" data-bs-parent="asignaturas-segundo">
+                  <p class="accordion-body">
+                      Trabajo final que reuna todo lo aprendido durante el ciclo                  
+                  </p>
+              </div>
+          </div>
+         
+        </div>
+      </div>
+    </div>
+   </section>
+
+   <section id="#modalidades">
+
+   </section>
+
+   <section>
+
+    <h1 class="mb-5" id="modalidades">MODALIDADES</h1>
+
+    <div class="container text-center">
+      <div class="row row-cols-1 row-cols-md-3 justify-content-center">
+        <div class="col">
+          <div class="card">
+            <div class="card-header">
+              <h4>PRESENCIAL</h4>
+            </div>
+            <div class="card-body">
+              <h3 class="font-weight-normal">4000€ <small class="text-muted">/año</small></h3>
+              <ul class="list-unstyled mt-3 mb-4">
+                <li>Horario de mañana</li>
+                <li>Equipamiento colegio</li>
+                <li>Otra cosa</li>
+                <li>Otra cosa</li>
+              </ul>
+            </div>      
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card">
+            <div class="card-header">
+              <h4>DISTANCIA</h4>
+            </div>
+            <div class="card-body">
+              <h3 class="my-0 font-weight-normal">3000€ <small class="text-muted">/año</small></h3>
+              <ul class="list-unstyled mt-3 mb-4">
+                <li>Horario de tarde</li>
+                <li>Tutorías online</li>
+                <li>Otra cosa</li>
+                <li>Otra cosa</li>
+              </ul>
+            </div>      
+          </div>
+        </div>
+     </div>
+
+    </section>
+      
+   <section id="formulario">
+
+    <h1>RESERVA TU PLAZA</h1>
+
+    <div class="container">
+      <div class="row">
+          <div class="col-md-7">
+              <div class="mb-3">
+                  <label for="nombre" class="form-label">Name</label>
+                  <input type="text" class="form-control" id="nombre" placeholder="Introduce tu nombre">
+                </div>
+                <div class="mb-3">
+                  <label for="email" class="form-label">Email</label>
+                  <input type="text" class="form-control" id="email" placeholder="Introduce tu email">
+                </div>
+                <div class="mb-3">
+                  <label for="telefono" class="form-label">Teléfono</label>
+                  <input type="text" class="form-control" id="telefono" placeholder="Introduce tu teléfono">
+                </div>
+                <div class="mb-3">
+                  <label for="comentario" class="form-label">Deja cualquier comentario</label>
+                  <textarea class="form-control" id="comentario" rows="3"></textarea>
+                </div>
+                <button class="btn btn-primary">Reservar</button>
+          </div>
+          <div class="col-md-5 ">
+            <div class="mt-4">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2901.7061560039656!2d-8.405034523191366!3d43.34133757111874!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd2e7d4a34bbee7d%3A0xfdbb82aae0a76987!2sLiceo%20La%20Paz!5e0!3m2!1sit!2ses!4v1709502288427!5m2!1sit!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+          </div>
+      </div>
+    </div>
+
+   </section>
+
+   <footer class="d-flex flex-column align-items-end justify-content-center">
+     
+    <p class="mx-5">Liceo la Paz, A Coruña</p>
+    <p class="mx-5"><i class="bi bi-twitter-x"></i><i class="bi bi-facebook"></i><i class="bi bi-instagram"></i><i class="bi bi-youtube"></i>
+    </p>
+
+   </footer>
+     
+
+  </div>
+
+    <!-- BOOTSTRAP JS-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
