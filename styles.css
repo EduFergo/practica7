@@ -36,7 +36,7 @@ h1, h2, h3, h4, li, p, label, input, button, a, small{
 
 .hero-image{
     
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/carrousel1.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("carrousel1.jpg");
     width: 100vh;
     height: 70vh;
     background-repeat: no-repeat;
